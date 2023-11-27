@@ -1,0 +1,26 @@
+﻿@page
+@model Razor_Pages_HW___20._11._23.Pages.CalculateTriangleSquareModel
+@{
+    Layout = null;
+}
+<form method="post">
+    <div style="display:inline-block">
+
+        <h3>Введите длину основания</h3>
+        
+            <input style="margin:5px" type="number" name="_num1" />
+        
+
+        <h3>Введите длину высоты</h3>
+        
+            <input style="margin:5px" type="number" name="_num2" />
+        
+
+        
+            <input style="margin:5px" type="submit" name="Input" />
+        
+
+    </div>
+</form>
+
+<h2>@Model.message</h2>
